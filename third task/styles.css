@@ -1,0 +1,154 @@
+html{
+  scroll-behavior: smooth;
+}
+.about {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    margin-left: 1cm;
+    margin-top: 0cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    word-wrap: break-word;
+    white-space: normal;
+}
+.pro{
+  margin-bottom: 100px;
+}
+.container h1 {
+    font-size: 6em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.container .pragragh {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    line-height: 1.6;
+    max-width: 50%;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.image-container {
+    margin: 50px 0;
+    padding-bottom:100px ;
+    width: 100vw;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.image-container img {
+    width: 100vw;
+    height: calc(50vh + 2cm);
+    margin-top: 50px;
+    padding: 0;
+    object-fit: cover;
+}
+.komy{
+  text-decoration: none;
+  display: inline-flex;
+  padding-left: 16px;
+  padding-top: 14px;
+  margin-left: 675px;
+  margin-top: 30px;
+  background-color: black;
+  font-size: 3em;
+  height: 100px;
+  width: 100px;
+  color: white;
+  border-radius: 50px;
+  font-weight: 700;
+}
+header{
+background-color:transparent;
+  width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 20px 50px;
+position: relative;
+overflow: hidden;
+min-height: 120vh;
+  padding-bottom:750px ;
+
+}
+.h1:hover{
+  color: brown;
+  transition: 0.4s;
+}
+header a{
+color: black;
+text-decoration: none;
+font-size: 2.5em;
+font-weight: 500;
+padding-left: 30px
+}
+
+.video-bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  margin-bottom: 100px;
+}
+
+.projects{
+  text-align: center;
+  font-size:  5.5em;
+  font-weight: 600;
+  padding: 40px;
+}
+.koko {
+  text-decoration: none;
+  color: black;
+}
+.koko p{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-weight: 500;
+  font-size: 1.6em;
+  font-family: arial;
+}
+.footer{
+display: flex;
+justify-content: center;
+background-color:rgb(170,65,14) ;
+color: white;
+padding: 20px 0px ;
+margin-bottom: 0;
+}
+img{
+  opacity: 1;
+}
+img:hover{
+  opacity: 0.8;
+  transition: 0.7s;
+}
+.footer{
+  color: white;
+}
+.wix a{
+  color: white;
+}

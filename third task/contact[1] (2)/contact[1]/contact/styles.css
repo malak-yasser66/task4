@@ -1,0 +1,151 @@
+.contact {
+     font-family: 'Playfair Display', serif;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 900px;
+        margin-bottom: 70px;
+        margin-top: 700px;
+ }
+
+ /*topic*/
+.address {
+       text-align: center;
+       font-size: 85px;
+       pointer-events: auto;
+       font-weight: lighter;
+       margin-top: 150px;
+       margin-bottom: 30px;
+ }
+ /*/topic*/
+ /*form*/
+.form-container {
+      background-color: white;
+      padding: 20px;
+      width: 900px;
+      height: 900px;
+
+ }
+
+.row1 {
+      display: flex;
+      /*gap: 5px;*/
+      justify-content: center;
+ }
+
+.input-group {
+     width: auto;
+     margin-left: 10px;
+
+ }
+
+label {
+     display: block;
+     font-weight: lighter;
+     margin-bottom: 10px;
+     margin-top: 15px;
+     font-size: 16px;
+ }
+
+
+
+input.Message {
+     height: 100px;
+ }
+
+input:not(.input-group input) {
+     width: 672px;
+     padding: 10px;
+     font-size: 18px;
+     border: 1px solid #020202;
+     border-radius: none;
+ }
+.hamada{
+  display: block;
+  margin-left:10px;
+}
+.input-group input {
+     width: 250px;
+     height: 50px;
+     margin-top: 30px;
+     padding: 8px;
+     font-size: 18px;
+     border: 1px solid #030303;
+     border-radius: none;
+ }
+
+
+label[for="Email"],
+label[for="Phone"],
+label[for="Message"] {
+     margin-left: 108px;
+ }
+
+input.Email,
+input.Phone,
+input.Message {
+     margin-left: 108px;
+     width: calc(100% - 50px);
+ }
+
+button {
+     float: right;
+     width: 150px;
+     background-color: black;
+     color: white;
+     border: none;
+     padding: 10px;
+     cursor: pointer;
+     font-size: 14px;
+     margin-top: 14px;
+     margin-right: 100px;
+  }
+  .homs{
+    margin-top: 20px;
+  }
+button:hover {
+     background-color: #333;
+  }
+
+/*soical-icons*/
+.email {
+  margin-top: 150px;
+     color: black;
+}
+     .email-1 {
+   text-decoration: none;
+     }
+.social-icons {
+     margin-left: 280px;
+     margin-top: -35px;
+     display: flex;
+     gap: 15px;
+ }
+
+.social-icons i {
+     font-size: 20px;
+
+ }
+ .social-icons a {
+     color: black;
+ }
+ /*/soical-icons*/
+/*/form*/
+ /*footer*/
+.footer-bottom {
+     color: white;
+     background-color: rgba(153, 55, 23, 1);
+     font-size: 14px;
+     vertical-align: baseline;
+     height: 200px;
+     padding: 20px 0px;
+     width: 1338px;
+     text-align: center;
+     margin-right: 121px;
+ }
+ .footer-bottom a {
+    color: white;
+ }
+  /*footer*/
